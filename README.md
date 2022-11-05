@@ -61,11 +61,15 @@ Make sure Node and NPM are installed.
    ```sh
    git clone https://github.com/OliverAHolmes/geonotes-express-react
    ```
-2. Install Express Server NPM packages
+2. Navigate to the project directory
+   ```sh
+   cd geonotes-express-react
+   ```
+3. Install Express Server NPM packages
    ```sh
    npm install
    ```
-3. Install React Client NPM packages
+4. Install React Client NPM packages
    ```sh
    cd client && npm install && cd ..
    ```
