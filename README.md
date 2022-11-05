@@ -30,6 +30,9 @@
 
 This project in an example of how to set up a project using Express, React and Open Layers.
 
+See example of this app running here: 
+[https://geonotes.app](https://geonotes.app)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
