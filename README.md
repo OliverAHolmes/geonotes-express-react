@@ -28,7 +28,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+[![Product Name Screen Shot][product-screenshot]](https://www.geonotes.app)
+
 This project in an example of how to set up a project using Express, React and Open Layers.
+
+It includes an example of a CRUD API endpoint for retrieving GeoJSON and a React front-end that uses axios to consume it.
 
 See example of this app running here: 
 [https://www.geonotes.app](https://www.geonotes.app)
@@ -57,9 +61,13 @@ Make sure Node and NPM are installed.
    ```sh
    git clone https://github.com/OliverAHolmes/geonotes-express-react
    ```
-2. Install NPM packages
+2. Install Express Server NPM packages
    ```sh
    npm install
+   ```
+3. Install React Client NPM packages
+   ```sh
+   cd client && npm install && cd ..
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -67,7 +75,18 @@ Make sure Node and NPM are installed.
 <!-- RUN -->
 ## Run 
 
+To run the project locally you can run the Express API server on one terminal and the React front-end server on another.
 
+1. Open a terminal and run:
+   ```sh
+   npm run start
+   ```
+2. Open another terminal and run:
+   ```sh
+   cd client && npm run start
+   ```
+
+Happy hacking!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,8 +95,12 @@ Make sure Node and NPM are installed.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add Express GeoJson link.
-- [ ] Add GraphQL support. 
+- [x] Create Express API.
+- [x] Create React front-end with Open Layers integration.
+- [x] Display GeoJSON on Open Layers map.
+- [x] Create GeoJSON API link to Express server.
+- [x] Add Express GeoJson link.
+- [ ] Add GraphQL support.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -91,3 +114,6 @@ Oliver Holmes - [Medium](https://oliverholmes.com.au/)
 Project Link: [https://github.com/OliverAHolmes/geonotes-express-react](https://github.com/OliverAHolmes/geonotes-express-react)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: images/screenshot.png
