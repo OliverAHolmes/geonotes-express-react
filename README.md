@@ -32,11 +32,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://www.geonotes.app)
 
-This project in an example of how to set up a project using Express, React and Open Layers.
+This is an example of how to set up a project using Express, React and Open Layers.
 
 It includes an example of a CRUD API endpoint for retrieving GeoJSON and a React front-end that uses axios to consume it.
 
-See example of this app running here: 
+See an example of this app running here: 
 [https://www.geonotes.app](https://www.geonotes.app)
 
 
@@ -58,6 +58,8 @@ Make sure Node and NPM are installed.
   ```
 <!-- INSTALLATION -->
 ### Installation
+
+Clone the repo and install the required packages:
 
 1. Clone the repo
    ```sh
@@ -81,7 +83,7 @@ Make sure Node and NPM are installed.
 <!-- RUN -->
 ## Run 
 
-To run the project locally you can run the Express API server on one terminal and the React front-end server on another.
+To run the project locally you can run the Express API server on one terminal and the React front-end server on another:
 
 1. Open a terminal and run:
    ```sh
