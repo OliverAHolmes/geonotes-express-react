@@ -2,7 +2,7 @@
 
 const path = require('path');
 const express = require("express");
-const db = require("./database.js");
+const db = require("./database.ts");
 const { graphqlHTTP } = require('express-graphql');
 const { GraphQLJSON, GraphQLJSONObject } = require('graphql-type-json');
 
