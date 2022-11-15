@@ -109,6 +109,8 @@ Happy hacking!
 - [x] Create GeoJSON API link to Express server.
 - [x] Add Express GeoJson link.
 - [ ] Add GraphQL support.
+- [ ] Create Rest Integration Tests.
+- [ ] Create GraphQL Integration Tests.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
